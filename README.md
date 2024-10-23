@@ -14,5 +14,5 @@
 The purpose of this project was to create a grid to improve another type of image organization display
 
 #### Grid ScreenShot
-<img src= "img/screenshots/screenshot1.png">
+<img src= "img/screenshots/pic1.png">
 
