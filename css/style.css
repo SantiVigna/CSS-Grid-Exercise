@@ -1,35 +1,41 @@
 .container{
     width: 500px;
     height: 500px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
     grid-template-rows: 100px;
-    border: rgb(255, 0, 0) 2px solid;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 .main{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 75px 75px;
-    gap: 10px;
-    border: rgb(255, 0, 0) 2px solid;
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 .footer {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 100px;
-    border: rgb(255, 0, 0) 2px solid;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .title {
     grid-column: 1/3;
     grid-row: 1;
     border: grey 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo {
     grid-column: 3 / 6;
@@ -78,13 +84,13 @@
     border: grey 1px solid;
 }
 
-.max {
+.fernando {
     grid-column: 2 / 3;
     grid-row: 1;
     border: grey 1px solid;
 }
 
-.fernando {
+.f1Car {
     grid-column: 1 / 3;
     grid-row: 2;
     border: grey 1px solid;
@@ -102,3 +108,7 @@
     border: grey 1px solid;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
